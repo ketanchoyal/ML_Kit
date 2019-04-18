@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1072384380966",
+    "firebase_url": "https://ml-practice-a1e66.firebaseio.com",
+    "project_id": "ml-practice-a1e66",
+    "storage_bucket": "ml-practice-a1e66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072384380966:android:72bed75853c426fb",
+        "android_client_info": {
+          "package_name": "com.service.parking.ml_kit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072384380966-e46tul5lnl36d2ucsjlcdqgit9t2tqjs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.service.parking.ml_kit",
+            "certificate_hash": "3aa89324c4808f4adf3e0d64de097bfd1a67c56f"
+          }
+        },
+        {
+          "client_id": "1072384380966-ugeflfoph1tgjdc7cvt9gvhrm0b3d8ub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJqLRrmc2jVyt8NmA04II22xVvq3p_1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072384380966-ugeflfoph1tgjdc7cvt9gvhrm0b3d8ub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

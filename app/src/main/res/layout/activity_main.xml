@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETECT"
+        android:id="@+id/detect_btn"
+        android:layout_alignParentBottom="true"/>
+
+    <com.camerakit.CameraKitView
+        android:id="@+id/camera_view"
+        android:layout_above="@id/detect_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.service.parking.ml_kit.Helper.GraphicOverlay
+        android:id="@+id/graphics_overlay"
+        android:layout_above="@id/detect_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
